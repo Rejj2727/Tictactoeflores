@@ -2,7 +2,7 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
-
+//tictactoe is fun
 package com.mycompany.tictactoeflores;             
 
 
@@ -22,7 +22,7 @@ public class Tictactoeflores extends Frame implements ActionListener {
         setSize(320, 380);
         setResizable(false); 
 
-        Panel grid = new Panel(new GridLayout(3, 3, 5, 5)); // add spacing
+        Panel grid = new Panel(new GridLayout(3, 3, 5, 5)); 
         Font font = new Font("Arial", Font.BOLD, 40);
 
         for (int i = 0; i < 3; i++) {
